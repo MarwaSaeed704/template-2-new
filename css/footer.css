@@ -1,0 +1,90 @@
+/* footer section */
+
+footer{
+    background: #000;
+    
+}
+
+.footer-items{
+    display: grid;
+    grid-template-columns: 30% 20% 15% 20%;
+    grid-gap: 50px;
+    padding: 50px 0;
+}
+
+.footer-item-desc{
+    color: gray;
+    line-height: 1.7;
+    padding: 30px 0;
+}
+
+.cms-footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.footer-item-title a{
+     color: #fff;
+     text-transform: capitalize;
+}
+
+.footer-item-list{
+    padding: 30px 0;
+}
+
+.footer-item-list li{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-item-list li a{
+    color: gray;
+    text-transform: capitalize;
+}
+
+.input-icons input{
+    background: transparent;
+    color: gray;
+    border: 0;
+    margin: 50px 0;
+    border-bottom: .2px solid gray;
+    padding: 10px 5px;
+    width: 100%;
+    text-transform: capitalize; 
+    
+}
+.input-icons{
+    width: 100%;
+    margin-bottom: 10px; 
+    position: relative;
+}
+
+.input-icons .icon{
+    color: #fff;
+    position: absolute;
+    padding: 10px; 
+    bottom: 47px;
+    right: 0px;
+}
+
+.subscribe-list li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.subscribe-list li a i{
+    color: gray;
+}
+
+footer .hr-line{
+    display: block;
+    background: gray;
+    height: 1px;
+    width: 100%;
+}
+
+.copy-right{
+    color: gray;
+    text-transform: capitalize;
+    padding: 10px 0;
+}

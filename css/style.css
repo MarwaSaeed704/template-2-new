@@ -1,0 +1,126 @@
+/* 
+1-general style
+2-common style
+3-header section
+4-slider section
+*/
+
+/* 1-general style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* css3 */
+}
+
+body{
+    font-family: "PT Sans",sans-serif;
+}
+
+:root{
+    --main-color:#7b5244;
+    --sub-color:#333;
+}
+
+.container{
+    width: 80%;
+    margin:  auto;
+}
+
+.unstyle-list{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.section-padding{
+    padding: 40px 0;
+}
+.section-header{
+    text-align: center;
+}
+
+.section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.section-header .line{
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    background: var(--main-color);
+    transition: width .5s;
+    margin-bottom: 30px;
+}
+
+.section-header:hover .line{
+    width: 150px;
+}
+
+/* common section  */
+
+/* bollets */
+.circles{
+    text-align: center;
+    transform: scale(1);
+}
+
+.circles span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: .5s;
+    margin-left: 5px;
+    
+}
+
+.circles .white{
+    background: var(--main-color);
+    
+}
+
+.circles .black{
+    background: #000;
+}
+
+.circles:hover span.white{
+    background: #000;
+    
+}
+
+.circles span.white:hover{
+    transform: scale3d(1.2,1.2,1);
+
+}
+
+.circles:hover span.black{
+    background: var(--main-color);
+    
+    
+}
+
+.circles span.black:hover {
+    transform: scale3d(1.2,1.2,1);
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

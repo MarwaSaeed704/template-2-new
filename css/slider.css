@@ -1,0 +1,36 @@
+/* slider */
+
+
+section.slider img{
+    width: 100%; 
+}
+
+section.slider .container:hover .dotted{
+    transform: scale(1);
+}
+
+
+
+.dotted{
+    position: absolute;  
+    bottom: 12%;
+    left: 50%; 
+    transform: scale(0);
+}
+
+.dotted div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: inline-block;
+    
+}
+
+.dotted .white{
+    background: #fff;
+}
+
+.dotted .black{
+    background: #000;
+}
